@@ -1,0 +1,297 @@
+body {
+    background: linear-gradient(to top,  #225024 0%, #8ecf91 100%);
+    background-repeat: no-repeat;
+    font-family: 'Jura', sans-serif;
+    min-height: 98vh;
+}
+
+.project-name {
+    margin: 15px 0 auto;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #a2459e 0%,
+      #4945a2 29%,
+      #45a249 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+    
+
+
+.upload-icon {
+    width: 60px;
+    height: 60px;
+    vertical-align:middle;
+    display:inline-block;
+    clear: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: mymove 2s;
+}
+
+@keyframes mymove {
+    from {top: 30px;}
+    to {top: 0;}
+  }
+
+.icon-title {
+    line-height:40px;
+    display:inline-block;
+    font-weight: bold;
+    vertical-align:middle;
+    border:2px solid #8CAAD2;
+    border-radius:10px;
+    margin-top: 30px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.white {
+    color: #fff;
+}
+
+
+/*---------------Wrapper-----------------*/
+
+.wrapper {
+    color: #666;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.form-wrapper {
+    color: #fff;
+    background: #4CAF50; 
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/*---------------Header-----------------*/
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.button-white {
+    background-color: #fff;
+    border: none;
+    color: #4CAF50;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    font-weight: bolder;
+  }
+
+
+.header {
+    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
+    margin: 30px 0;
+}
+
+
+.title {
+    font-size: 20px;
+    max-width: 100%;
+    color: #4CAF50;
+    }
+
+
+hr {
+    border-top: 1px solid #8CAAD2;
+    margin: 30px 0;
+}
+
+.yellow-text {
+    color:yellow;
+    font-size:12px;
+}
+
+.center-block {
+    margin: 0 auto;
+}
+
+
+/*---------------Table-----------------*/
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+  }
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {background: #f2f3f7;}
+
+.table-style {
+    overflow-x: auto;
+    margin-bottom: 30px !important;
+}
+
+.head-title-green {
+    background-color: #4CAF50 !important; 
+    color: #fff;
+}
+
+.head-title-grey {
+    background-color: #999 !important; 
+    color: #fff;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+
+/*---------------Image Table-----------------*/
+
+
+.action-icons {
+  width: 100%;
+  max-width: 20px;
+  height: auto;
+}
+
+
+.pagination li a {
+    border: none;
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0 10px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 30px !important;
+    text-align: center;
+}
+
+.pagination li a:hover {
+    color: #666;
+}   
+
+.pagination li.active a {
+    background: #03A9F4;
+}
+
+.pagination li.active a:hover {        
+    background: #0397d6;
+ }
+
+.pagination li.disabled i {
+    color: #ccc;
+}
+
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+    }
+
+    
+
+/*---------------Form-----------------*/
+
+.form-input {
+	height: 40px;
+	color:#666;
+    width:70%;  
+    border-radius: 4px;   
+    border: 0;   
+}
+
+
+/*---------------Footer-----------------*/
+
+
+.logo-footer {
+    display: inline-block;
+    width: 40px;
+}
+    
+.footer-text {
+    display: inline-block;
+    text-align: center;
+    
+ }
+ 
+ .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #bababa;
+ }
+
+ .footer-wrapper {
+    width: 60%;
+    margin: 15px auto;
+ }
+
+
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 94%;
+    }
+    
+  }
